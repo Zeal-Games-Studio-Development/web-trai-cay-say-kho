@@ -1,0 +1,553 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>NACOMS - Trái Cây Sấy Thiên Nhiên | Đặc Sản Tiền Giang</title>
+  <meta name="description" content="NACOMS - Thương hiệu trái cây sấy dẻo thiên nhiên từ vùng đất Tiền Giang. Xoài sấy, thơm sấy, chanh dây sấy và nhiều loại trái cây sấy đặc sản khác. Không chất bảo quản, nguyên chất tự nhiên." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400;1,600&family=Be+Vietnam+Pro:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ===== ANNOUNCEMENT BAR ===== -->
+  <div class="announcement-bar" id="announcement-bar">
+    <p>🎉 Miễn phí vận chuyển cho đơn hàng từ 300.000đ | Giao hàng toàn quốc <a href="#contact">Đặt hàng ngay →</a></p>
+    <button class="ann-close" id="ann-close-btn" aria-label="Đóng">✕</button>
+  </div>
+
+  <!-- ===== HEADER ===== -->
+  <header class="header" id="main-header">
+    <div class="header-top">
+      <div class="container">
+        <div class="header-top-inner">
+          <div class="contact-info">
+            <a href="tel:+84912450440" class="contact-link">
+              <span class="icon">📞</span> +84 912 450 440
+            </a>
+            <a href="mailto:nacomsvn@gmail.com" class="contact-link">
+              <span class="icon">✉</span> nacomsvn@gmail.com
+            </a>
+          </div>
+          <div class="social-links">
+            <a href="#" class="social-link" aria-label="Facebook">
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
+            </a>
+            <a href="#" class="social-link" aria-label="Instagram">
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg>
+            </a>
+            <a href="#" class="social-link" aria-label="YouTube">
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/></svg>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <nav class="navbar" id="navbar">
+      <div class="container">
+        <div class="nav-inner">
+          <a href="#" class="logo">
+            <span class="logo-icon">🌿</span>
+            <div class="logo-text">
+              <span class="logo-main">NACOMS</span>
+              <span class="logo-sub">Trái Cây Sấy Thiên Nhiên</span>
+            </div>
+          </a>
+
+          <ul class="nav-links" id="nav-links">
+            <li><a href="#home" class="nav-link active">Trang Chủ</a></li>
+            <li><a href="#products" class="nav-link">Sản Phẩm</a></li>
+            <li><a href="#about" class="nav-link">Về Chúng Tôi</a></li>
+            <li><a href="#blog" class="nav-link">Bài Viết</a></li>
+            <li><a href="#contact" class="nav-link">Liên Hệ</a></li>
+          </ul>
+
+          <div class="nav-actions">
+            <button class="cart-btn" id="cart-btn" aria-label="Giỏ hàng">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 2L3 6v14a2 2 0 002 2h14a2 2 0 002-2V6l-3-4z"/><line x1="3" y1="6" x2="21" y2="6"/><path d="M16 10a4 4 0 01-8 0"/></svg>
+              <span class="cart-count" id="cart-count">0</span>
+            </button>
+            <button class="hamburger" id="hamburger" aria-label="Menu">
+              <span></span><span></span><span></span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <!-- ===== HERO SECTION ===== -->
+  <section class="hero" id="home">
+    <div class="hero-bg">
+      <img src="images/hero_banner.png" alt="Trái cây sấy NACOMS" class="hero-img" />
+      <div class="hero-overlay"></div>
+    </div>
+    <div class="hero-content container">
+      <div class="hero-badge">🌿 Thiên Nhiên • Sạch • Ngon</div>
+      <h1 class="hero-title">
+        Vị Ngọt <em>Thiên Nhiên</em><br/>
+        Từ Tiền Giang
+      </h1>
+      <p class="hero-desc">
+        Những trái cây sấy dẻo được chắt lọc từ vùng đất phù sa màu mỡ, giữ trọn hương vị tươi ngon — không chất bảo quản, không phẩm màu.
+      </p>
+      <div class="hero-actions">
+        <a href="#products" class="btn btn-primary">
+          <span>Khám Phá Sản Phẩm</span>
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+        </a>
+        <a href="#about" class="btn btn-outline">Câu Chuyện Của Chúng Tôi</a>
+      </div>
+      <div class="hero-stats">
+        <div class="stat-item">
+          <span class="stat-num">100%</span>
+          <span class="stat-label">Tự Nhiên</span>
+        </div>
+        <div class="stat-divider"></div>
+        <div class="stat-item">
+          <span class="stat-num">8+</span>
+          <span class="stat-label">Loại Sản Phẩm</span>
+        </div>
+        <div class="stat-divider"></div>
+        <div class="stat-item">
+          <span class="stat-num">5K+</span>
+          <span class="stat-label">Khách Hàng</span>
+        </div>
+      </div>
+    </div>
+    <div class="hero-scroll-indicator">
+      <div class="scroll-dot"></div>
+    </div>
+  </section>
+
+  <!-- ===== FEATURES STRIP ===== -->
+  <section class="features-strip">
+    <div class="container">
+      <div class="features-grid">
+        <div class="feature-item">
+          <div class="feature-icon">🌱</div>
+          <div class="feature-text">
+            <strong>Không Chất Bảo Quản</strong>
+            <span>Giữ nguyên dưỡng chất thiên nhiên</span>
+          </div>
+        </div>
+        <div class="feature-item">
+          <div class="feature-icon">🚚</div>
+          <div class="feature-text">
+            <strong>Giao Hàng Toàn Quốc</strong>
+            <span>Miễn phí từ 300.000đ</span>
+          </div>
+        </div>
+        <div class="feature-item">
+          <div class="feature-icon">🏆</div>
+          <div class="feature-text">
+            <strong>Chứng Nhận ATTP</strong>
+            <span>An toàn thực phẩm đảm bảo</span>
+          </div>
+        </div>
+        <div class="feature-item">
+          <div class="feature-icon">💝</div>
+          <div class="feature-text">
+            <strong>Đổi Trả Dễ Dàng</strong>
+            <span>Cam kết hoàn tiền 100%</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== PRODUCTS SECTION ===== -->
+  <section class="products-section" id="products">
+    <div class="container">
+      <div class="section-header">
+        <div class="section-tag">Sản Phẩm</div>
+        <h2 class="section-title">Đặc Sản <em>Tiền Giang</em></h2>
+        <p class="section-desc">Mỗi sản phẩm là một hành trình từ vườn cây xanh mát đến tay bạn, giữ trọn hương vị và dưỡng chất thiên nhiên.</p>
+      </div>
+
+      <div class="products-filter">
+        <button class="filter-btn active" data-filter="all">Tất Cả</button>
+        <button class="filter-btn" data-filter="xoai">Xoài</button>
+        <button class="filter-btn" data-filter="thorn">Thơm</button>
+        <button class="filter-btn" data-filter="khac">Khác</button>
+      </div>
+
+      <div class="products-grid" id="products-grid">
+        <!-- Products will be injected by JS -->
+      </div>
+
+      <div class="products-cta">
+        <a href="#contact" class="btn btn-primary">Đặt Hàng Ngay</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== ABOUT / STORY SECTION ===== -->
+  <section class="about-section" id="about">
+    <div class="container">
+      <div class="about-grid">
+        <div class="about-image-wrap">
+          <img src="images/founder_story.png" alt="Câu chuyện người sáng lập NACOMS" class="about-img" />
+          <div class="about-img-card">
+            <span class="card-icon">🎋</span>
+            <div>
+              <strong>Đồng Tháp & Tiền Giang</strong>
+              <span>Vùng đất phù sa màu mỡ</span>
+            </div>
+          </div>
+          <div class="about-badge-years">
+            <span class="badge-num">10</span>
+            <span class="badge-label">Năm<br/>Kinh Nghiệm</span>
+          </div>
+        </div>
+
+        <div class="about-content">
+          <div class="section-tag">Về Chúng Tôi</div>
+          <h2 class="section-title">Câu Chuyện Từ <em>Mảnh Đất Quê</em></h2>
+          <p class="about-lead">
+            NACOMS được sinh ra từ tình yêu với những trái cây quê hương, từ những chuyến về thăm Đồng Tháp — nơi mà mỗi mùa xoài chín, hương thơm lan tỏa khắp vườn.
+          </p>
+          <p class="about-text">
+            Chúng tôi tin rằng thiên nhiên đã ban tặng đủ vị ngon ngọt cho trái cây Việt. Vì thế mỗi sản phẩm của NACOMS được làm bằng công nghệ sấy hiện đại nhưng vẫn giữ nguyên bản chất tự nhiên — không phẩm màu, không chất bảo quản.
+          </p>
+          <div class="about-values">
+            <div class="value-item">
+              <div class="value-icon">✨</div>
+              <div>
+                <strong>Nguyên Liệu Tươi Ngon</strong>
+                <p>Chọn lọc từ những vườn cây tốt nhất</p>
+              </div>
+            </div>
+            <div class="value-item">
+              <div class="value-icon">🔬</div>
+              <div>
+                <strong>Công Nghệ Sấy Hiện Đại</strong>
+                <p>Giữ nguyên vitamin và khoáng chất</p>
+              </div>
+            </div>
+            <div class="value-item">
+              <div class="value-icon">❤️</div>
+              <div>
+                <strong>Làm Bằng Tình Yêu</strong>
+                <p>Mỗi mẫu sản phẩm đều được kiểm tra kỹ lưỡng</p>
+              </div>
+            </div>
+          </div>
+          <a href="#contact" class="btn btn-primary">Tìm Hiểu Thêm</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== TESTIMONIALS ===== -->
+  <section class="testimonials-section">
+    <div class="container">
+      <div class="section-header">
+        <div class="section-tag">Đánh Giá</div>
+        <h2 class="section-title">Khách Hàng <em>Nói Gì</em></h2>
+      </div>
+      <div class="testimonials-grid">
+        <div class="testimonial-card">
+          <div class="stars">⭐⭐⭐⭐⭐</div>
+          <p>"Xoài sấy muối ớt của NACOMS ngon tuyệt vời! Vị chua ngọt hòa quyện với một chút cay, ăn là ghiền. Đóng gói cẩn thận, giao hàng nhanh."</p>
+          <div class="testimonial-author">
+            <div class="author-avatar">NL</div>
+            <div>
+              <strong>Nguyễn Lan</strong>
+              <span>Hà Nội</span>
+            </div>
+          </div>
+        </div>
+        <div class="testimonial-card featured">
+          <div class="stars">⭐⭐⭐⭐⭐</div>
+          <p>"Mình đặt hàng làm quà tặng cho đối tác, ai cũng khen ngon và độc đáo. Hộp quà nhìn rất sang trọng, chắc chắn sẽ đặt thêm."</p>
+          <div class="testimonial-author">
+            <div class="author-avatar">TH</div>
+            <div>
+              <strong>Trần Hương</strong>
+              <span>TP. Hồ Chí Minh</span>
+            </div>
+          </div>
+        </div>
+        <div class="testimonial-card">
+          <div class="stars">⭐⭐⭐⭐⭐</div>
+          <p>"Thơm sấy dẻo mềm mại, thơm tự nhiên. Con mình rất thích ăn vặt lành mạnh này. Sẽ giới thiệu cho bạn bè!"</p>
+          <div class="testimonial-author">
+            <div class="author-avatar">MP</div>
+            <div>
+              <strong>Minh Phương</strong>
+              <span>Đà Nẵng</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== BLOG SECTION ===== -->
+  <section class="blog-section" id="blog">
+    <div class="container">
+      <div class="section-header">
+        <div class="section-tag">Bài Viết</div>
+        <h2 class="section-title">Câu Chuyện & <em>Kiến Thức</em></h2>
+        <p class="section-desc">Khám phá những bí quyết sức khoẻ và câu chuyện thú vị từ vùng đất trái cây.</p>
+      </div>
+      <div class="blog-grid">
+        <article class="blog-card featured-blog">
+          <div class="blog-img-wrap">
+            <img src="images/about_section.png" alt="Vị ngọt đất phèn" class="blog-img" />
+            <div class="blog-category">Câu Chuyện</div>
+          </div>
+          <div class="blog-content">
+            <div class="blog-meta">
+              <span>🗓 15 tháng 3, 2024</span>
+              <span>⏱ 5 phút đọc</span>
+            </div>
+            <h3 class="blog-title">Vị Ngọt Đất Phèn — Hành Trình Từ Vườn Đến Tay Bạn</h3>
+            <p class="blog-excerpt">Chúng tôi đã đi từ Sài Gòn về Đồng Tháp vào một buổi chiều cuối tháng 4, khi những cánh đồng lúa vừa gặt xong nhường chỗ cho những vườn xoài xanh mướt...</p>
+            <a href="#" class="blog-read-more">Đọc Thêm <span>→</span></a>
+          </div>
+        </article>
+
+        <div class="blog-side">
+          <article class="blog-card-mini">
+            <img src="images/product_thorn_say.png" alt="Lợi ích thơm sấy dẻo" class="blog-mini-img" />
+            <div class="blog-content">
+              <div class="blog-category-mini">Sức Khoẻ</div>
+              <h3 class="blog-title-mini">5 Lợi Ích Sức Khoẻ Của Thơm Sấy Dẻo</h3>
+              <p class="blog-excerpt-mini">Thơm sấy không chỉ ngon mà còn chứa nhiều enzyme bromelain giúp tiêu hoá tốt...</p>
+              <a href="#" class="blog-read-more-mini">Đọc thêm →</a>
+            </div>
+          </article>
+
+          <article class="blog-card-mini">
+            <img src="images/product_chanh_day.png" alt="Chanh dây sấy" class="blog-mini-img" />
+            <div class="blog-content">
+              <div class="blog-category-mini">Sản Phẩm</div>
+              <h3 class="blog-title-mini">Tại Sao Chanh Dây Sấy Dẻo Được Yêu Thích?</h3>
+              <p class="blog-excerpt-mini">Chanh dây sấy có vị chua ngọt đặc trưng, giàu vitamin C và chất chống oxy hoá...</p>
+              <a href="#" class="blog-read-more-mini">Đọc thêm →</a>
+            </div>
+          </article>
+
+          <article class="blog-card-mini">
+            <img src="images/product_xoai_muoi_ot.png" alt="Bảo quản trái cây sấy" class="blog-mini-img" />
+            <div class="blog-content">
+              <div class="blog-category-mini">Mẹo Hay</div>
+              <h3 class="blog-title-mini">Cách Bảo Quản Trái Cây Sấy Đúng Cách</h3>
+              <p class="blog-excerpt-mini">Để giữ trái cây sấy được lâu mà không mất đi hương vị, bạn cần chú ý đến...</p>
+              <a href="#" class="blog-read-more-mini">Đọc thêm →</a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== NEWSLETTER SECTION ===== -->
+  <section class="newsletter-section">
+    <div class="newsletter-bg"></div>
+    <div class="container">
+      <div class="newsletter-content">
+        <div class="newsletter-icon">📮</div>
+        <h2>Nhận Ưu Đãi Đặc Biệt</h2>
+        <p>Đăng ký để nhận thông tin sản phẩm mới và ưu đãi độc quyền từ NACOMS</p>
+        <form class="newsletter-form" id="newsletter-form">
+          <input type="email" placeholder="Nhập email của bạn..." class="newsletter-input" id="newsletter-email" required />
+          <button type="submit" class="btn btn-primary newsletter-btn">Đăng Ký</button>
+        </form>
+        <p class="newsletter-note">🔒 Chúng tôi cam kết không spam. Hủy đăng ký bất cứ lúc nào.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== CONTACT SECTION ===== -->
+  <section class="contact-section" id="contact">
+    <div class="container">
+      <div class="section-header">
+        <div class="section-tag">Liên Hệ</div>
+        <h2 class="section-title">Đặt Hàng & <em>Hỏi Đáp</em></h2>
+        <p class="section-desc">Liên hệ với chúng tôi để đặt hàng hoặc tìm hiểu thêm về sản phẩm</p>
+      </div>
+
+      <div class="contact-grid">
+        <div class="contact-info-box">
+          <h3>Thông Tin Liên Hệ</h3>
+          <div class="contact-items">
+            <div class="contact-item">
+              <div class="contact-item-icon">📍</div>
+              <div>
+                <strong>Địa Chỉ</strong>
+                <p>Ấp Quy Phước, Xã Nhị Quý, Thị Xã Cái Lậy, Tỉnh Tiền Giang</p>
+              </div>
+            </div>
+            <div class="contact-item">
+              <div class="contact-item-icon">📞</div>
+              <div>
+                <strong>Điện Thoại</strong>
+                <p><a href="tel:+84912450440">+84 912 450 440</a></p>
+              </div>
+            </div>
+            <div class="contact-item">
+              <div class="contact-item-icon">✉</div>
+              <div>
+                <strong>Email</strong>
+                <p><a href="mailto:nacomsvn@gmail.com">nacomsvn@gmail.com</a></p>
+              </div>
+            </div>
+            <div class="contact-item">
+              <div class="contact-item-icon">🕐</div>
+              <div>
+                <strong>Giờ Làm Việc</strong>
+                <p>Thứ 2 – Thứ 7: 8:00 – 17:30</p>
+              </div>
+            </div>
+          </div>
+          <div class="contact-social">
+            <a href="#" class="social-pill">📘 Facebook</a>
+            <a href="#" class="social-pill">📸 Instagram</a>
+            <a href="#" class="social-pill">▶ YouTube</a>
+          </div>
+        </div>
+
+        <form class="contact-form" id="contact-form">
+          <h3>Gửi Tin Nhắn</h3>
+          <div class="form-row">
+            <div class="form-group">
+              <label for="contact-name">Họ Tên *</label>
+              <input type="text" id="contact-name" placeholder="Tên của bạn" required />
+            </div>
+            <div class="form-group">
+              <label for="contact-phone">Số Điện Thoại *</label>
+              <input type="tel" id="contact-phone" placeholder="0xxx xxx xxx" required />
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="contact-email">Email</label>
+            <input type="email" id="contact-email" placeholder="email@example.com" />
+          </div>
+          <div class="form-group">
+            <label for="contact-message">Nội Dung *</label>
+            <textarea id="contact-message" rows="4" placeholder="Nhập nội dung tin nhắn..." required></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary btn-full">
+            <span>Gửi Tin Nhắn</span>
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 2L11 13"/><path d="M22 2L15 22 11 13 2 9l20-7z"/></svg>
+          </button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer">
+    <div class="footer-main">
+      <div class="container">
+        <div class="footer-grid">
+          <div class="footer-brand">
+            <a href="#" class="logo logo-light">
+              <span class="logo-icon">🌿</span>
+              <div class="logo-text">
+                <span class="logo-main">NACOMS</span>
+                <span class="logo-sub">Trái Cây Sấy Thiên Nhiên</span>
+              </div>
+            </a>
+            <p class="footer-about">
+              Chúng tôi mang đến những sản phẩm trái cây sấy dẻo thiên nhiên, được làm từ nguyên liệu tươi ngon vùng Đồng Bằng Sông Cửu Long.
+            </p>
+            <div class="footer-social">
+              <a href="#" class="fsocial-link" aria-label="Facebook">
+                <svg viewBox="0 0 24 24" fill="currentColor"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
+              </a>
+              <a href="#" class="fsocial-link" aria-label="Instagram">
+                <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg>
+              </a>
+              <a href="#" class="fsocial-link" aria-label="YouTube">
+                <svg viewBox="0 0 24 24" fill="currentColor"><path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/></svg>
+              </a>
+            </div>
+          </div>
+
+          <div class="footer-col">
+            <h4 class="footer-heading">Sản Phẩm</h4>
+            <ul class="footer-links">
+              <li><a href="#products">Xoài Sấy Muối Ớt</a></li>
+              <li><a href="#products">Xoài Sấy Dẻo</a></li>
+              <li><a href="#products">Thơm Sấy Dẻo</a></li>
+              <li><a href="#products">Thơm Sấy Muối Ớt</a></li>
+              <li><a href="#products">Chanh Dây Sấy</a></li>
+              <li><a href="#products">Hỗn Hợp Trái Cây</a></li>
+            </ul>
+          </div>
+
+          <div class="footer-col">
+            <h4 class="footer-heading">Thông Tin</h4>
+            <ul class="footer-links">
+              <li><a href="#about">Về Chúng Tôi</a></li>
+              <li><a href="#blog">Blog & Tin Tức</a></li>
+              <li><a href="#contact">Liên Hệ</a></li>
+              <li><a href="#">Chính Sách Đổi Trả</a></li>
+              <li><a href="#">Chính Sách Bảo Mật</a></li>
+              <li><a href="#">Câu Hỏi Thường Gặp</a></li>
+            </ul>
+          </div>
+
+          <div class="footer-col">
+            <h4 class="footer-heading">Địa Chỉ</h4>
+            <address class="footer-address">
+              <p>📍 Ấp Quy Phước, Xã Nhị Quý</p>
+              <p>Thị Xã Cái Lậy, Tiền Giang</p>
+              <p>📞 <a href="tel:+84912450440">+84 912 450 440</a></p>
+              <p>✉ <a href="mailto:nacomsvn@gmail.com">nacomsvn@gmail.com</a></p>
+            </address>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <div class="container">
+        <p>© 2024 NACOMS. Tất cả quyền được bảo lưu. | Thiết kế với ❤️ từ Tiền Giang</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ===== BACK TO TOP ===== -->
+  <button class="back-to-top" id="back-to-top" aria-label="Về đầu trang">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M18 15l-6-6-6 6"/></svg>
+  </button>
+
+  <!-- ===== CART MODAL ===== -->
+  <div class="cart-modal" id="cart-modal">
+    <div class="cart-backdrop" id="cart-backdrop"></div>
+    <div class="cart-panel">
+      <div class="cart-header">
+        <h3>Giỏ Hàng</h3>
+        <button class="cart-close" id="cart-close">✕</button>
+      </div>
+      <div class="cart-body" id="cart-body">
+        <div class="cart-empty">
+          <div class="cart-empty-icon">🛒</div>
+          <p>Giỏ hàng trống</p>
+          <a href="#products" class="btn btn-primary" onclick="closeCart()">Mua Sắm Ngay</a>
+        </div>
+      </div>
+      <div class="cart-footer" id="cart-footer" style="display:none">
+        <div class="cart-total">
+          <span>Tổng Cộng:</span>
+          <strong id="cart-total-price">0đ</strong>
+        </div>
+        <a href="#contact" class="btn btn-primary btn-full" onclick="closeCart()">Đặt Hàng Ngay</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- ===== TOAST NOTIFICATION ===== -->
+  <div class="toast" id="toast"></div>
+
+  <script src="app.js"></script>
+</body>
+</html>
